@@ -15,5 +15,10 @@ public class readme {
         System.out.println("design yamini photo");
     }
 
+    @Test
+    public void hello2(){
+        System.out.println("design complted photo");
+    }
+
 
 }
