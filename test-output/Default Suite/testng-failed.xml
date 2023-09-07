@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="FrameWork(failed)">
+    <classes>
+      <class name="TestCases.SubmitOrderTestNg">
+        <methods>
+          <include name="submitordertest"/>
+          <include name="closeapplication"/>
+          <include name="LaunchApplication"/>
+        </methods>
+      </class> <!-- TestCases.SubmitOrderTestNg -->
+      <class name="TestCases.ErrorValidation">
+        <methods>
+          <include name="producterrorvalidation"/>
+          <include name="LoginErrorValidation"/>
+          <include name="closeapplication"/>
+          <include name="LaunchApplication"/>
+        </methods>
+      </class> <!-- TestCases.ErrorValidation -->
+    </classes>
+  </test> <!-- FrameWork(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

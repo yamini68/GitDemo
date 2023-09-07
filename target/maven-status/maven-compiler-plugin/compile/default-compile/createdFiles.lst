@@ -1,0 +1,7 @@
+org\example\PageObjectClasses\AddToCartPage_POM.class
+org\example\PageObjectClasses\ProductCatlog_POM.class
+org\example\PageObjectClasses\LoginPage_POM.class
+org\example\PageObjectClasses\OrderConformationPage_POM.class
+AbstractMethods\AbstractMethod1.class
+org\example\PageObjectClasses\PaymentPage_POM.class
+org\example\PageObjectClasses\OrderListPage_POM.class
